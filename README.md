@@ -12,12 +12,18 @@ This project implements a smart bicycle safety system using Android devices to m
   4. Boundary crossing (geofencing)
   
 **Alerts and Notifications:**
-    1. Beep alarm for overspeeding and fall detection on phone A.
-    2. Real-time location displayed on Phone B (parent's device) using an image of the local map.
-    3. Audible alerts on Phone B for overspeeding and fall detection.
-    
+
+  1. Beep alarm for overspeeding and fall detection on phone A.
+  2. Real-time location displayed on Phone B (parent's device) using an image of the local map.
+  3. Audible alerts on Phone B for overspeeding and fall detection.
+
 **Emergency Response:**
-    1. If Cycle falls, Alarm on Phone A with option to disable.
-    2. Real-time location sent to Phone B.
-    3. Automatic activation of microphone on Phone A if alarm isn't disabled within 5 seconds.
-    4. SOS transmission to Phone B with recorded sound via mobile internet.
+
+  1. If Cycle falls, Alarm on Phone A with option to disable.
+  2. Real-time location sent to Phone B.
+  3. Automatic activation of microphone on Phone A if alarm isn't disabled within 5 seconds.
+  4. SOS transmission to Phone B with recorded sound via mobile internet.
+
+# Video Demonstration
+
+Link: https://youtu.be/5F03Pw0_VtQ
