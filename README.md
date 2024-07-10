@@ -4,24 +4,24 @@ This project implements a smart bicycle safety system using Android devices to m
 
 # Objective of the app
 
-Real-time Monitoring:
+**Real-time Monitoring:**
 
-  Continuously monitors GPS, accelerometer, and gyroscope data to detect:
-  Overspeeding
-  Fall detection (minimizing false positives)
-  Boundary crossing (geofencing)
+  1. Continuously monitors GPS, accelerometer, and gyroscope data to detect:
+  2. Overspeeding
+  3. Fall detection (minimizing false positives)
+  4. Boundary crossing (geofencing)
   
-Alerts and Notifications:
+**Alerts and Notifications:**
 
   Alerts on Phone A (child's device):
-    Beep alarm for overspeeding and fall detection.
-    Real-time location displayed on Phone B (parent's device) using an image of the local map.
-    Audible alerts on Phone B for overspeeding and fall detection.
+    1. Beep alarm for overspeeding and fall detection.
+    2. Real-time location displayed on Phone B (parent's device) using an image of the local map.
+    3. Audible alerts on Phone B for overspeeding and fall detection.
     
-Emergency Response:
+**Emergency Response:**
 
   In case of a fall:
-    Alarm on Phone A with option to disable.
-    Real-time location sent to Phone B.
-    Automatic activation of microphone on Phone A if alarm isn't disabled within 5 seconds.
-    SOS transmission to Phone B with recorded sound via mobile internet.
+    1. Alarm on Phone A with option to disable.
+    2. Real-time location sent to Phone B.
+    3. Automatic activation of microphone on Phone A if alarm isn't disabled within 5 seconds.
+    4. SOS transmission to Phone B with recorded sound via mobile internet.
