@@ -1,5 +1,27 @@
 # CHILD SAFETY MONITORING APP
 
+This project implements a smart bicycle safety system using Android devices to monitor a child's safety during cycling activities. The system leverages embedded hardware sensors (gyroscope, accelerometer, GPS, microphone, antenna) in conjunction with mobile devices to provide real-time monitoring and alerts to parents.
 
-![ssrp](https://github.com/mumukshjain/Smart-Bicycle-Safety-Monitoring-System-Advisor/assets/117573063/51478f5f-4af2-47b8-a13d-6bb7ee95f0d6)
-https://youtu.be/5F03Pw0_VtQ
+# Objective of the app
+
+Real-time Monitoring:
+
+  Continuously monitors GPS, accelerometer, and gyroscope data to detect:
+  Overspeeding
+  Fall detection (minimizing false positives)
+  Boundary crossing (geofencing)
+  
+Alerts and Notifications:
+
+  Alerts on Phone A (child's device):
+    Beep alarm for overspeeding and fall detection.
+    Real-time location displayed on Phone B (parent's device) using an image of the local map.
+    Audible alerts on Phone B for overspeeding and fall detection.
+    
+Emergency Response:
+
+  In case of a fall:
+    Alarm on Phone A with option to disable.
+    Real-time location sent to Phone B.
+    Automatic activation of microphone on Phone A if alarm isn't disabled within 5 seconds.
+    SOS transmission to Phone B with recorded sound via mobile internet.
