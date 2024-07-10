@@ -14,6 +14,7 @@ This project implements a smart bicycle safety system using Android devices to m
 **Alerts and Notifications:**
 
   Alerts on Phone A (child's device):
+  
     1. Beep alarm for overspeeding and fall detection.
     2. Real-time location displayed on Phone B (parent's device) using an image of the local map.
     3. Audible alerts on Phone B for overspeeding and fall detection.
@@ -21,6 +22,7 @@ This project implements a smart bicycle safety system using Android devices to m
 **Emergency Response:**
 
   In case of a fall:
+  
     1. Alarm on Phone A with option to disable.
     2. Real-time location sent to Phone B.
     3. Automatic activation of microphone on Phone A if alarm isn't disabled within 5 seconds.
